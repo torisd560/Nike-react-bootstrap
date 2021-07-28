@@ -18,6 +18,12 @@ h1,h3{
 p{
     color: #3E3E3E;
 }
+.border-rounded-shadow{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
 /* start navbar section */
 nav ul li{
     color: #3C3C3C;
@@ -30,15 +36,17 @@ nav ul li{
 /* start nike reat section */
 
 .custom-text-warning{
-    color: #FA804C;;
+    color: #FA804C;
 }
 .custom-w-h{
     width: 357px;
     height: 304px;
 }
-/* start casual shoes section */
-.custom-bg-secondary{
-    background: rgba(235, 232, 232, 0.925);
-    filter: drop-shadow(0px 30px 10px rgba(0, 0, 0, 0.15));
-} 
+/* start casual show section */
+.custom-bg-rounded{
+    background: rgb(238, 236, 236);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
 
+}
+    
